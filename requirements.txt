@@ -19,4 +19,5 @@ torch
 torchvision
 torchaudio
 lightning
+ipykernel
 -e .

@@ -31,3 +31,14 @@ $ pip install -r requirements.txt
 8. Update the main.py: endpoint
 9. Update dvc.yaml
 10. Update app.py (Flask app)
+
+## Personal notes
+1. `config/config.yaml` holds configuration variables of components, so I won't have to hard code them inside the component
+2. `ConfigBox`
+```python
+from box import ConfigBox # helps accessing values of dictionary easier. Detailed in experiments.ipynb.
+```
+3. `@ensure_annotations`
+```python
+from ensure import ensure_annotations # decorator makes sure that the arguments and returned values are as my expected data type. Detailed in experiments.ipynb.
+```

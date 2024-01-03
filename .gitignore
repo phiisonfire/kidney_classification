@@ -163,3 +163,4 @@ cython_debug/
 
 #data
 research/kidney_ct_scan_dataset.zip
+artifacts/*

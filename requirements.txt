@@ -15,10 +15,6 @@ scipy
 Flask
 Flask-Cors
 gdown
-torch
-torchvision
-torchaudio
-lightning
 ipykernel
-tensorflow
+tensorflow[and-cuda]
 -e .

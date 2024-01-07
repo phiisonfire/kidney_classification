@@ -20,4 +20,5 @@ torchvision
 torchaudio
 lightning
 ipykernel
+tensorflow
 -e .
